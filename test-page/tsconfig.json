@@ -1,0 +1,16 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outFile": "./dist/exposed-main.js",
+    "sourceMap": true,
+    "declaration": true,
+    "downlevelIteration": true,
+    "module": "AMD",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "lib": ["es2018", "dom"]
+  },
+  "include": ["*"]
+}
